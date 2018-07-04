@@ -1,3 +1,8 @@
+#root{
+	background-color:#f5f5f5;
+}
+	
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40px;
@@ -31,8 +36,8 @@
 }
 
 .item {
-    background: #fafafa;
-    border: 1px solid #ccc;
+    background: rgba(256,256,256,.8);
+    border: 1px solid rgba(256,256,256);
     margin: 15px 0;
     padding: 15px;
 	min-height:230px;
@@ -52,7 +57,7 @@
 .item img{
 	width:100%;
 	height:auto;
-	opacity:.2;
+	opacity:1;
 }
 
 .sidebarleft{
@@ -70,4 +75,38 @@
 .item-footer .label{
 	font-size:14px;
 	line-height:27px;
+}
+
+.banner img{
+	width:100%;
+	height:auto;
+}
+
+.sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+}
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+}
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+}
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+  
+.footer{
+	background:#CCCCCC;
+	text-align:center;
+	color:#333333;
+	margin-top:50px;
+	padding:10px;
+}
+
+.footer p{
+	margin:0;
 }
