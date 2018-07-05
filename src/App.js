@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import logo from './images/fashion-fashionable-footwear-267301.png';
 import './App.css';
 
